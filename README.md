@@ -18,6 +18,7 @@ Before you can use the new language, you need a detailed specification that outl
 2. Develop an Interpreter or Compiler
 
 Interpreter: An interpreter executes programs directly from the source code, translating it line-by-line into machine code. This approach is typically easier to implement and is ideal for educational purposes because it allows for immediate feedback.
+
 Compiler: A compiler translates the entire program into machine code before execution. This method can lead to better performance but is more complex to develop.
 
 3. Create a Standard Library
@@ -27,6 +28,7 @@ Develop a set of libraries that provide useful functions and tools within the la
 4. Write Documentation
    
 Create comprehensive documentation that covers:
+
 Syntax and Semantics: Explain how to write valid code, including variables, control structures, functions, classes, and more.
 Examples and Tutorials: Provide clear examples and tutorial content that guide new users on how to start programming.
 API References: Detail the standard library functions, what they do, and how to use them.
@@ -34,6 +36,7 @@ API References: Detail the standard library functions, what they do, and how to 
 6. Develop Educational Materials
 
 Developing educational materials that teach programming concepts using the new language can be very helpful. These could include:
+
 Interactive Tutorials: Online platforms where students can write and execute code directly in their browsers.
 
 Coursework: Structured courses that introduce programming in educational institutions.
