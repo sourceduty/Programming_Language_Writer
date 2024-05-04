@@ -30,7 +30,9 @@ Develop a set of libraries that provide useful functions and tools within the la
 Create comprehensive documentation that covers:
 
 Syntax and Semantics: Explain how to write valid code, including variables, control structures, functions, classes, and more.
+
 Examples and Tutorials: Provide clear examples and tutorial content that guide new users on how to start programming.
+
 API References: Detail the standard library functions, what they do, and how to use them.
 
 6. Develop Educational Materials
