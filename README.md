@@ -87,7 +87,7 @@ print greeting
 
 #
 
-> Alex: *"I really like this custom GPT. I want to improving and developing programming languages."*
+> Alex: *"I really like this custom GPT. I want to improve and develope programming languages."*
 
 ***
 Copyright (C) 2024, Sourceduty - All Rights Reserved.
