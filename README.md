@@ -91,8 +91,10 @@ print greeting
 <br>    
 </details>
 
-<details><summary>Improving Python Concurrency and Asynchronous Programming Capabilities</summary>
+<details><summary>Improving Python Programming Capabilities</summary>
 <br>
+
+Here's a plan for improving Python's concurrency and asynchronous programming capabilities:
 
 Understanding the Current Limitations:
 - Global Interpreter Lock (GIL): Limits execution of Python bytecodes to one thread at a time, affecting CPU-bound applications.
