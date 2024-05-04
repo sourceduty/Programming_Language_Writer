@@ -9,36 +9,38 @@ What sets Programming Language Writer apart is its highly interactive and user-c
 #
 ### Language Development Procedure
 
+Procedure:
+
 1. Define the Language Specification
-   
-Before you can use the language, you need a detailed specification that outlines all its features, syntax rules, and behavior. This specification acts as a blueprint for building the language processor (interpreter or compiler) and helps ensure consistency and clarity in how the language functions.
 
-3. Develop an Interpreter or Compiler
-   
-Interpreter: An interpreter executes the EduLang programs directly from the source code, translating it line-by-line into machine code. This is typically easier to implement and is ideal for educational purposes because it allows for immediate feedback.
+Before you can use the new language, you need a detailed specification that outlines all its features, syntax rules, and behavior. This specification acts as a blueprint for building the language processor (interpreter or compiler) and ensures consistency and clarity in how the language functions.
 
-Compiler: A compiler translates the entire EduLang program into machine code before execution. This can lead to better performance but is more complex to develop.
+2. Develop an Interpreter or Compiler
 
-5. Create a Standard Library
-   
-Develop a set of libraries that provide useful functions and tools within EduLang, like file handling, mathematical functions, and data manipulation utilities. This helps users accomplish common tasks more easily.
+Interpreter: An interpreter executes programs directly from the source code, translating it line-by-line into machine code. This approach is typically easier to implement and is ideal for educational purposes because it allows for immediate feedback.
+Compiler: A compiler translates the entire program into machine code before execution. This method can lead to better performance but is more complex to develop.
 
-7. Write Documentation
+3. Create a Standard Library
+
+Develop a set of libraries that provide useful functions and tools within the language, such as file handling, mathematical functions, and data manipulation utilities. This helps users accomplish common tasks more easily.
+
+4. Write Documentation
    
 Create comprehensive documentation that covers:
-Syntax and Semantics: Explain how to write valid EduLang code, including variables, control structures, functions, classes, and more.
-Examples and Tutorials: Provide clear examples and tutorial content that guide new users on how to start programming in EduLang.
+Syntax and Semantics: Explain how to write valid code, including variables, control structures, functions, classes, and more.
+Examples and Tutorials: Provide clear examples and tutorial content that guide new users on how to start programming.
 API References: Detail the standard library functions, what they do, and how to use them.
 
-9. Develop Educational Materials
-    
-Since EduLang is aimed at beginners, developing educational materials that teach programming concepts using EduLang would be very helpful. These could include:
-Interactive Tutorials: Online platforms where students can write and execute EduLang code directly in their browsers.
-Coursework: Structured courses that introduce programming with EduLang in educational institutions.
+6. Develop Educational Materials
 
-11. Set Up a Development Environment
-    
-Create or adapt an existing integrated development environment (IDE) or a simple text editor setup that supports EduLang syntax highlighting, error checking, and other features that help users write code more efficiently.
+Developing educational materials that teach programming concepts using the new language can be very helpful. These could include:
+Interactive Tutorials: Online platforms where students can write and execute code directly in their browsers.
+
+Coursework: Structured courses that introduce programming in educational institutions.
+
+7. Set Up a Development Environment
+   
+Create or adapt an existing integrated development environment (IDE) or a simple text editor setup that supports syntax highlighting, error checking, and other features that help users write code more efficiently.
 
 #
 
