@@ -11,6 +11,9 @@ What sets Programming Language Writer apart is its highly interactive and user-c
 #
 ### Language Development Procedure
 
+<details><summary>Language Development Procedure</summary>
+<br>
+
 Procedure:
 
 1. Define the Language Specification
@@ -48,6 +51,9 @@ Coursework: Structured courses that introduce programming in educational institu
 7. Set Up a Development Environment
    
 Create or adapt an existing integrated development environment (IDE) or a simple text editor setup that supports syntax highlighting, error checking, and other features that help users write code more efficiently.
+
+<br>    
+</details>
 
 #
 ### Example Usage
