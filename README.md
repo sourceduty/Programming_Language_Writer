@@ -43,6 +43,42 @@ Coursework: Structured courses that introduce programming in educational institu
 Create or adapt an existing integrated development environment (IDE) or a simple text editor setup that supports syntax highlighting, error checking, and other features that help users write code more efficiently.
 
 #
+### Example Usage
+
+<details><summary>SimpleLang</summary>
+<br>
+   
+### SimpleLang
+
+Here is what a program written in SimpleLang might look like:
+
+```
+
+plaintext
+# This is a comment in SimpleLang
+
+# Variable declaration and initialization
+number = 10
+greeting = "Hello, SimpleLang!"
+
+# Conditional statement
+if number > 5
+    print "Number is greater than 5"
+
+# Loop example
+while number > 0
+    print number
+    number = number - 1
+
+# Print a greeting
+print greeting
+
+```
+
+<br>    
+</details>
+
+#
 
 > Alex: *"I really like this custom GPT. I will be developing my own programming languages."*
 
