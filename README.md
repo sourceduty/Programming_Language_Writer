@@ -184,12 +184,6 @@ Ultimately, the choice between PyChem and Python depends on the user's specific 
 ### Related Links
 
 [Python](https://github.com/sourceduty/Python)
-<br>
-[Python Simulator](https://chat.openai.com/g/g-NLUSBfccY-python-simulator)
-<br>
-[Python Diagnostics](https://chat.openai.com/g/g-NnT93PRw6-python-diagnostics)
-<br>
-[Python Architect](https://chat.openai.com/g/g-ltK2f7Fkk-python-architect)
 
 ***
 Copyright (C) 2024, Sourceduty - All Rights Reserved.
