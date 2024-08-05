@@ -184,6 +184,10 @@ Ultimately, the choice between PyChem and Python depends on the user's specific 
 ### Related Links
 
 [Python](https://github.com/sourceduty/Python)
+<br>
+[ChatGPT](https://github.com/sourceduty/ChatGPT)
+<br>
+[Format Developer](https://github.com/sourceduty/Format_Developer)
 
 ***
 Copyright (C) 2024, Sourceduty - All Rights Reserved.
