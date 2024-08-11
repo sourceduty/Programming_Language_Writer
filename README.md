@@ -188,6 +188,8 @@ Ultimately, the choice between PyChem and Python depends on the user's specific 
 [ChatGPT](https://github.com/sourceduty/ChatGPT)
 <br>
 [Format Developer](https://github.com/sourceduty/Format_Developer)
+<br>
+[IDE Developer](https://github.com/sourceduty/IDE_Developer)
 
 ***
 Copyright (C) 2024, Sourceduty - All Rights Reserved.
