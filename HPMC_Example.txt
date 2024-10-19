@@ -1,0 +1,81 @@
+The Hybrid Programming-Machine Code (HPMC) system allows sections of the program that require maximum performance, like matrix multiplication, to be written in machine code, while the non-performance-critical parts (such as input/output and control flow) are maintained in high-level code for ease of readability and development. This approach offers flexibility to developers to tune performance-critical sections without rewriting the entire program in assembly.
+
+PROGRAM: HPMC Example for Performance Optimization
+
+DESCRIPTION:
+This program demonstrates a simple HPMC approach by performing matrix multiplication.
+The critical part of the code, which involves accessing data from memory, is written
+in low-level assembly to achieve maximum performance.
+
+PART 1: High-Level Code (C-like syntax)
+
+main() {
+
+    // Define two matrices A and B, and result matrix C
+    int A[2][2] = {{1, 2}, {3, 4}};
+    int B[2][2] = {{5, 6}, {7, 8}};
+    int C[2][2] = {{0, 0}, {0, 0}};
+    
+    // Call the matrix multiplication function
+    mat_mul(A, B, C);
+    
+    // Display result matrix C
+    for (int i = 0; i < 2; i++) {
+        for (int j = 0; j < 2; j++) {
+            print(C[i][j]);
+        }
+    }
+}
+
+PART 2: Inline Machine Code (Assembly)
+
+mat_mul(int A[2][2], int B[2][2], int C[2][2]) {
+    
+    // Inline assembly for matrix multiplication
+    __asm {
+        
+        // Load matrix A elements into registers
+        mov eax, A[0][0]      // Load A[0][0]
+        mov ebx, A[0][1]      // Load A[0][1]
+        mov ecx, A[1][0]      // Load A[1][0]
+        mov edx, A[1][1]      // Load A[1][1]
+        
+        // Load matrix B elements into registers
+        mov esi, B[0][0]      // Load B[0][0]
+        mov edi, B[0][1]      // Load B[0][1]
+        mov ebp, B[1][0]      // Load B[1][0]
+        mov esp, B[1][1]      // Load B[1][1]
+
+        // Perform matrix multiplication for C[0][0]
+        mov C[0][0], eax
+        imul C[0][0], esi    // Multiply A[0][0] * B[0][0]
+        add C[0][0], ebx
+        imul C[0][0], ebp    // Add A[0][1] * B[1][0]
+
+        // Perform matrix multiplication for C[0][1]
+        mov C[0][1], eax
+        imul C[0][1], edi    // Multiply A[0][0] * B[0][1]
+        add C[0][1], ebx
+        imul C[0][1], esp    // Add A[0][1] * B[1][1]
+
+        // Perform matrix multiplication for C[1][0]
+        mov C[1][0], ecx
+        imul C[1][0], esi    // Multiply A[1][0] * B[0][0]
+        add C[1][0], edx
+        imul C[1][0], ebp    // Add A[1][1] * B[1][0]
+
+        // Perform matrix multiplication for C[1][1]
+        mov C[1][1], ecx
+        imul C[1][1], edi    // Multiply A[1][0] * B[0][1]
+        add C[1][1], edx
+        imul C[1][1], esp    // Add A[1][1] * B[1][1]
+        
+    }
+}
+
+PART 3: High-Level Code (Control and Output)
+
+print(int value) {
+    // Simple function to print a value to the console
+    console_write(value);
+}
