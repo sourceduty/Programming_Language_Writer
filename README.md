@@ -1,6 +1,6 @@
 ![Programming Language Writer](https://github.com/sourceduty/Programming_Language_Writer/assets/123030236/bbefd884-e1b3-4f33-85e7-3fac01455cc4)
 
-> Develop new programming languages and improve old programming languages.
+> Develop new programming language syntax and improve old programming languages. 
 
 #
 
