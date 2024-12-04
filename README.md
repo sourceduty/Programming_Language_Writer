@@ -216,6 +216,8 @@ In this context, the approach to privacy involves employing advanced encryption 
 [Format Origin](https://github.com/sourceduty/Format_Origin)
 <br>
 [High Python](https://github.com/sourceduty/High_Python)
+<br>
+[Plain Text](https://github.com/sourceduty/Plain_Text)
 
 ***
 Copyright (C) 2024, Sourceduty - All Rights Reserved.
