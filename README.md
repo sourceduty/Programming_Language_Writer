@@ -22,8 +22,6 @@ It's essential to manage backward compatibility as Python evolves to ensure that
 #
 ### Fast Machine Code
 
-![Caveman Language](https://github.com/user-attachments/assets/007343ee-4ea2-4e22-9c16-f25f036c9e6d)
-
 Machine code is significantly faster for a computer to execute compared to higher-level languages like Python because it operates at the lowest level, directly interfacing with the hardware. Machine code consists of binary instructions specific to a CPU's architecture, which the processor reads and executes without the need for translation. For instance, instructions in machine code like 10110000 01100001 directly instruct the CPU on operations such as loading data into registers. Because of this direct execution, machine code has minimal overhead, allowing for optimal performance and faster processing times.
 
 In contrast, Python, as a high-level, interpreted language, prioritizes human readability over machine efficiency. Python code, such as a = 10 + 5, is easy for humans to understand and write, but requires additional processing to convert it into a form the computer's CPU can execute. Python is interpreted, meaning an interpreter reads and translates each line of code into machine-level instructions on the fly. This interpretation step adds overhead, slowing down execution because Python code isn’t executed directly by the hardware but is instead converted into machine code through multiple layers, including bytecode and, ultimately, machine code.
@@ -32,6 +30,8 @@ Ultimately, machine code’s simplicity and direct execution make it faster for 
 
 #
 ### New Language Decades
+
+![Caveman Language](https://github.com/user-attachments/assets/007343ee-4ea2-4e22-9c16-f25f036c9e6d)
 
 The time required to create, learn, teach, improve, and program a brand-new language depends on various factors, such as its complexity, intended use, and the prior experience of the creator and learners. Developing the structure of a language—its syntax, grammar, and rules—can take several months to years, depending on whether it is natural (like Esperanto) or programming-based (like Python). A basic framework for a programming language may take 6–12 months to conceptualize and prototype if it is relatively simple. However, if the language includes advanced features, integration capabilities, and unique paradigms, the timeline could extend to several years. The learning curve for users depends on the familiarity of its syntax with existing languages and the availability of supporting documentation, which might take another few months to a year to develop.
 
